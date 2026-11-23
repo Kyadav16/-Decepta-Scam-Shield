@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Decepta Scam Shield",
+  "version": "2.0",
+  "description": "Uses AI to check web pages and emails for scams, phishing and fraud, and explains the risks in plain language.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Decepta"
+  }
+}
